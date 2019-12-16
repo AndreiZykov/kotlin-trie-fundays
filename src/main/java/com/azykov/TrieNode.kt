@@ -16,8 +16,6 @@ class TrieNode {
         return node
     }
 
-    fun hasBranchFor(ch: Char): Boolean = branches[ch - 'a'] != null
-
     fun setLeaf() {
         _isLeaf = true
     }
