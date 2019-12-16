@@ -19,5 +19,4 @@ class Trie {
         word.forEach { node = node.get(it) ?: return null }
         return node
     }
-
 }
